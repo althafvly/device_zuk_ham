@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service-qti \
     power-8974
 
+# RenderScript HAL
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
